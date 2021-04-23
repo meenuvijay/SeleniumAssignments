@@ -32,7 +32,7 @@ public class ChangeOddIndexToUpperCase {
 
 		{
 
-			if (i % 2 == 0) {
+			if (i % 2 != 0) {
 
 				// System.out.print(Character.toUpperCase(input[i]));
 				c1 = Character.toUpperCase(input[i]);
