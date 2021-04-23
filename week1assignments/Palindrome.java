@@ -30,6 +30,10 @@ public class Palindrome {
 		if (input.equals(rev)) {
 			System.out.print("The Palindrome:" + rev);
 		}
+		else
+		{
+			System.out.print("Not a Palindrome" );
+		}
 
 	}
 
