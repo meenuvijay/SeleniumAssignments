@@ -88,12 +88,12 @@ public class XpathAssignment {
 
 		
 		//Click on first result
-		driver.findElement(By.xpath("//div[@class ='x-grid3-cell-inner x-grid3-col-partyId']/a")).click();
-		
+		//driver.findElement(By.xpath("//div[@class ='x-grid3-cell-inner x-grid3-col-partyId']/a")).click();
+		driver.findElement(By.xpath("(//div[@class ='x-grid3-cell-inner x-grid3-col-partyId'])[1]/a")).click();
 		
 		//Select the second resulting lead
-		driver.findElement(By.xpath("(//div[@class ='x-grid3-cell-inner x-grid3-col-partyId']/a)[2]")).click();
-		
+		//driver.findElement(By.xpath("(//div[@class ='x-grid3-cell-inner x-grid3-col-partyId']/a)[2]")).click();
+		driver.findElement(By.xpath("(//div[@class ='x-grid3-cell-inner x-grid3-col-partyId'])[2]/a")).click();
 
 		
 		//Click on Merge Lead (submit) button
